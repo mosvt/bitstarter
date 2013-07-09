@@ -7,7 +7,7 @@ var file = '/index.html';
 var fileContent = buf.toString(fs.readFileSync(file));
 
 app.get('/', function(request, response) {
-  response.send(fileContent);
+  response.send("eat my shorts");
 });
 
 var port = process.env.PORT || 5000;
